@@ -1,0 +1,47 @@
+4. Utilisation de la comande: ls. Il y a 3 fichiers et 1 repertoire
+
+5. La taille du repertoire est de 4096 Oct. Sa taille n'est pas correct car il ne fait que decrire ce qui est dans le repertoire,
+   ce sont des metadonnées, ce qui explique sa petite taille. Commande utilise: ls -lrt
+
+6. La taille du fichier Microsoft est de 36 Ko à l'aide de la comande: du -hs Microsoft
+   La taille du fichier Microsoft est de 34359 Oct à l'aide de la commande: ls -lrt
+   Le taille donnnée par la commande du est plus grande que la taille donnée par ls -lrt. La difference est du au formatage (partition)
+   du disque, l'espace memoire attribué au fichier (du) est plus grand que la taille réel du fichier (ls _lrt)
+
+7. Le fichier Inode nous donne les informations sur l'emplacement du fichier sur le disque, sa taille, les droits d'accès et l'historique   d'accès et de modification
+
+8. Afficher les fichiers cachés a l'aide de la commande: ls -a
+   Il y a 1 fichiers caché .lightbulb
+
+9. Utilisation de la commande: ls -rt
+
+10. Utilisation de la commande: ls -rs
+
+11. Utilisation de la commande: cat answering-machine.txt
+
+12. Utilisation de la commande: more answering-machine.txt
+
+14. Utilisation de la commande: G, pour aller a la fin du fichier. Puis utilisation de la commande: i, pour éditer
+    Echap pour quiter le mode édition
+
+15. Utilisation de la commande: /gravelly et supression du mot à l'aide du raccourci clavier Suppr
+
+16. Utilisation de la commande: :w
+
+20. Utilisation de la commande: tail sardar3.txt -n 20
+
+21. Utilisation de la commande: grep trust Microsoft
+
+22. Utilisation de la commande: grep -r money
+
+23. Utilisation de la commande: grep -ri money
+
+24. Utilisation de la commande: mv .lightbulb lightbulb
+
+26. Utilisation de la commande: mv sardar3.txt ..
+
+27. Utilisation de la commande: cd ..
+
+28. Utilisation de la commande: rm Microsoft
+
+29. Utilisation de la commabde: mkdir
