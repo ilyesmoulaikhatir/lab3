@@ -44,24 +44,4 @@
 
 28. Utilisation de la commande: rm Microsoft
 
-29. Utilisation de la commabde: mkdir archive, pour créer un repertoire archive. Utilisation de la commande:
-    cp answering-machine.txt lab3_comment lightbulb README.md sardar3.txt archive && cp -r sardar archive, pour copier les fichiers et
-    repertoire
-
-30. Utilisation de la commande: ln -s sardar/* ./
-
-31. Les liens sont très facile à identifier, il s'affiche en cyan.
-
-32. Le lien sardar2.txt s'affiche en rouge surligné en noir. Si l'on execute la commande: cat sardar2.txt, on observe le message
-    suivant: "cat: sardar2.txt: No such file or directory". Le lien s'affiche toujours mais le fichier n'existe plus.
-
-33. Si on execute la commande: cat sardar1.txt, on peux voir que la modification du fichier sardar/sardar1.txt a apporté les mêmes
-    modification au lien symbolique sardar1.txt
-
-34. On constate a l'aide de la commande: ls -l sardar, que nous avons que le droit de lire le fichier sardar1.txt
-
-35. Utilisation de la commande: chmod u+w sardar/sardar1.txt, pour nous donner les droits d'ecriture
-
-36. Utilisation de la commande: tar jcvf lab3.tar.bz2 ../lab3
-
-37. Utilisation de la commande: tar -tf lab3.tar.bz2
+29. Utilisation de la commabde: mkdir
